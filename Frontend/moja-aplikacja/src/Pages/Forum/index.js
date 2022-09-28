@@ -11,6 +11,8 @@ function Forum() {
   return (
     <>
       <Navigation />
+       <ForumContainer />;
+
       {/* <div className="forum">
         {forumProperties.map((item, index) => {
          return <ForumContainer key={index} prop={item}/>;

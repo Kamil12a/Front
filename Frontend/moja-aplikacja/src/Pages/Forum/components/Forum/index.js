@@ -71,6 +71,7 @@ function Forum() {
               </Button>
             </div>
           </Form>
+         <ForumContainer />
         </div>
         {forumProperties.map((item, index) => {
           return <ForumContainer key={index} prop={item} />;
