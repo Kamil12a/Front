@@ -1,0 +1,16 @@
+.search-create-group-section {
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.create-group-container{
+  width: 500px;
+  height: 400px;
+  padding: 10px;
+  border: 5px solid #89cff0;
+  border-radius: 20px;
+}
+.search-group-container-btn {
+  text-align: center;
+}

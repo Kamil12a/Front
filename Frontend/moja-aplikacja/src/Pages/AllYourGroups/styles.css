@@ -1,0 +1,85 @@
+.your-groups-section {
+  display: flex;
+}
+.your-groups-section-allGroups {
+  padding: 10px;
+  width: 20vw;
+  height: 90vh;
+  border-right: 3px solid #89cff0;
+}
+.your-groups-section h4 {
+  font-weight: bold;
+}
+.your-group-section-input {
+  position: relative;
+  bottom: 20px;
+}
+.single-group {
+  cursor: pointer;
+  padding: 5px;
+  height: 60px;
+  background-color: #ece9e9;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.single-group > * {
+  margin: 0;
+}
+.your-groups-chat {
+  width: 60vw;
+  height: 90vh;
+  border-right: 3px solid #89cff0;
+}
+.your-groups-chat-header {
+  padding: 20px;
+  border-bottom: 3px solid #89cff0;
+}
+.your-groups-chat-messages {
+  width: 55%;
+  bottom: 80px;
+  position: absolute;
+  max-height: 98%;
+  overflow-y: auto;
+  text-align: end;
+}
+.singleMessage-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.singleMessage {
+  padding: 10px;
+  background-color: #89cff0;
+  border-radius: 20px;
+}
+.your-group-chat-input {
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: absolute;
+  top: 90vh;
+}
+.your-group-chat-input-sendmsg {
+  position: relative;
+  right: -10px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.your-groups-settings {
+  width: 20vw;
+  height: 90vh;
+}
+.your-groups-settings-panel {
+  padding: 10px;
+}
+.your-groups-settings-panel-tutor {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
